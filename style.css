@@ -21,6 +21,12 @@ h1 {
     margin-top: 5rem;
 }
 
+@media (max-width: 600px) {
+    .choices{
+        flex-direction: column;
+    }
+}
+
 .choice:hover{
     cursor: pointer;
     background-color: #081b31;
